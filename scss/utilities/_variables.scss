@@ -1,3 +1,18 @@
+
+//≈≈≈≈≈≈≈≈≈≈     FONT STACKS  ≈≈≈≈≈≈≈≈≈≈≈≈≈//
+
+$stack-sans-serif: Helvetica, Arial, sans-serif;
+$stack-helvetica: "Helvetica Neue", $stack-sans-serif;
+$stack-abolition: "Abolition Regular", $stack-sans-serif;
+
+
+//≈≈≈≈≈≈≈≈≈≈     FONT WEIGHT  ≈≈≈≈≈≈≈≈≈≈≈≈≈//
+
+$font-weight-light: 100;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+
 //≈≈≈≈≈≈≈≈≈≈    ALL COLORS  ≈≈≈≈≈≈≈≈≈≈≈≈≈//
 
 
@@ -41,3 +56,18 @@ $color-col-6: $deep;
 $color-col-7: $blossom;
 $color-col-8: $coral;
 $color-col-12: $mint;
+
+
+
+//≈≈≈≈≈≈≈≈≈≈    BREAKPOINTS  ≈≈≈≈≈≈≈≈≈≈≈≈≈//
+
+$break-xs: 480px;
+$break-s: 768px;
+$break-m: 769px;
+$break-l: 1400px;
+
+//≈≈≈≈≈≈≈≈≈≈    BORDER RADIUS  ≈≈≈≈≈≈≈≈≈≈≈≈≈//
+
+$br: 10px;
+
+//≈≈≈≈≈≈≈≈≈≈    GRID VARIABLES  ≈≈≈≈≈≈≈≈≈≈≈≈≈//

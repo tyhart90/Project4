@@ -1,0 +1,22 @@
+//≈≈≈≈≈≈≈≈≈≈     MEDIA QUERIES  ≈≈≈≈≈≈≈≈≈≈≈≈≈//
+
+@mixin media-q {
+  @media (min-width: $break-m) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+
+
+
+//≈≈≈≈≈≈≈≈≈≈     FLEXBOX  ≈≈≈≈≈≈≈≈≈≈≈≈≈//
+
+@mixin flexy($flex-dir, $just-con) {
+  display: flex;
+  flex-direction: $flex-dir;
+  justify-content: $just-con;
+}
+
+//≈≈≈≈≈≈≈≈≈≈     BUTTONS  ≈≈≈≈≈≈≈≈≈≈≈≈≈//

@@ -1,7 +1,6 @@
 @charset "UTF-8";
 * {
   box-sizing: border-box;
-  background-color: purple;
 }
 
 ul {
@@ -376,6 +375,52 @@ textarea {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.nav {
+  padding-left: 0;
+}
+.nav li {
+  text-align: center;
+  padding: 0.5rem 5rem;
+  margin: 0.5rem 1rem;
+  border-radius: 5px;
+}
+@media (min-width: 480px) {
+  .nav li {
+    padding: 0;
+  }
+}
+@media (min-width: 769px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0.5rem 0;
+  }
+  .nav .nav-item {
+    padding: 0;
+  }
+}
+
+.form__input {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-style: none;
+  border-bottom: 7px solid #78e2c8;
+  padding: 8px 16px;
+  margin: 5px 20px;
+}
+
+[value=Login] {
+  background-color: #6de4ff;
+  color: white;
+  border-style: none;
+  border-radius: 7px;
+  padding: 16px;
+  margin: 20px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

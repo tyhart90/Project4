@@ -1,0 +1,22 @@
+.nav {
+  padding-left: 0;
+
+  & li {
+    text-align: center;
+    padding: 0.5rem 5rem;
+    margin: 0.5rem 1rem;
+    border-radius: 5px;
+    @media (min-width: $break-xs) {
+      padding: 0;
+    }
+  }
+  @media (min-width: $break-m) {
+    @include flexy(row, center);
+    padding-left: 0;
+
+    margin: 0.5rem 0;
+    .nav-item {
+      padding: 0;
+    }
+  }
+}
